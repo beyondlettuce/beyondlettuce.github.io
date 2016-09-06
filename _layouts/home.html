@@ -4,20 +4,7 @@ layout: default
 ---
 
 <!-- Main Hero Banner -->
-					<section id="banner">
-							<article class="full">
-								<img src="{{page.hero-img}}" alt="" data-position="center" />
-								<div class="content">
-									<h2><a href="{page.permalink}">{{page.title}}</a></h2>
-									<p>{{page.content}}</p>
-									<ul class="actions">
-										<li><a href="{{page.permalink}}" class="button">Learn More</a></li>
-									</ul>
-								</div>
-							</article>
-              <!-- Sub Banner - 2 images below main Hero Banner -->
-              {%include sub-banner.html%}
-					</section>
+{% include banner.html %}
 
 
 
