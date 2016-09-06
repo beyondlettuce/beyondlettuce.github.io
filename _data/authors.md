@@ -1,0 +1,5 @@
+display-name: "ksmith"
+full-name: "Kelly Smith"
+title: "Owner"
+twitter: "@beyond_lettuce"
+Bio: "Kelly is amazing."
