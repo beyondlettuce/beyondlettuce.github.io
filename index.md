@@ -1,6 +1,6 @@
 ---
 layout: home
-title: The Beyond Lettuce Story 3
+title: Beyond Lettuce
 permalink: /
 hero-img: /images/pic04.s
 hero-alt: Lovely site default photo.
