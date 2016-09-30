@@ -3576,8 +3576,8 @@
 			}
 
 			#banner > article.full:nth-child(1) {
-				height: 10vh;
-				min-height: 10vh;
+				height: initial;
+				min-height: initial;
 			}
 
 			#banner > article:nth-child(1):before {
