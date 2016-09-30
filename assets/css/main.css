@@ -3575,6 +3575,11 @@
 				opacity: 0.25;
 			}
 
+			#banner > article.full:nth-child(1) {
+				height: 10vh;
+				min-height: 10vh;
+			}
+
 			#banner > article:nth-child(1):before {
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
@@ -3681,6 +3686,11 @@
 
 				#banner > article.full h2 {
 					font-size: 2.25em;
+				}
+
+				#banner-banner h2 {
+					border: 5px solid #ffffff;
+					padding: 1em 0.5em;
 				}
 
 				#banner > article.full .content {
