@@ -1,8 +1,0 @@
----
-layout: posts
-title:  <{ title }>
-date:   <{ date }>
-categories: congen
----
-
-<{ lorem.paragraphs }>
