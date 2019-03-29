@@ -2657,7 +2657,6 @@ input, select, textarea {
 /* Header */
 
 	body {
-		padding-top: 4.5em;
 	}
 
 	#header {
@@ -2766,7 +2765,7 @@ input, select, textarea {
 		}
 
 			#header.alt h1 {
-				font-size: 1.75em;
+				font-size: 2em;
 				left: 0;
 				letter-spacing: 0.11em;
 				line-height: 1.5em;
@@ -3323,7 +3322,7 @@ input, select, textarea {
 				}
 
 				#header.alt h1 {
-					font-size: 1.5em;
+					font-size: 2em;
 				}
 
 		/* Banner */
