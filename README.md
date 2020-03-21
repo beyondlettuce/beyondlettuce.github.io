@@ -7,13 +7,10 @@
   - Documentation: https://docs.scube.co/jekyll/stocky.html
   - Support : http://go.scube.co/stocky-js
 
-## Install & Run
+## Install & Update
 
-    gem install bundler
-    bundle install
+    make
 
-    bundle exec jekyll serve
+## Run locally
 
-## Keep Up to Date
-
-    bundle update
+    make serve
