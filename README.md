@@ -1,15 +1,12 @@
 # beyondlettuce.github.io
 
-- website: https://www.beyondlettuce.com/
-- repo: https://github.com/beyondlettuce/beyondlettuce.github.io
+- Web Site: https://www.beyondlettuce.com/
+- Repository: https://github.com/beyondlettuce/beyondlettuce.github.io
 
-## Install & Run
+## Install & Update
 
-    gem install bundler
-    bundle install
+    make
 
-    bundle exec jekyll serve
+## Run locally
 
-## Keep Up to Date
-
-    bundle update
+    make serve
