@@ -1,0 +1,17 @@
+- id: live-microgreens-radish-full
+  name: Live Radish Microgreens
+  price: 45.00
+  description: A full tray of live radish microgreens.
+  image: /images/products/live-microgreens-radish-full.jpg
+
+- id: live-microgreens-broccoli-full
+  name: Live Brocolli Microgreens
+  price: 45.00
+  description: A full tray of live broccoli microgreens.
+  image: /images/products/live-microgreens-broccoli-full.jpg
+
+- id: live-microgreens-spicy-salad-full
+  name: Live Spicy Salad Microgreens
+  price: 45.00
+  description: A full tray of live spicy salad microgreens.
+  image: /images/products/live-microgreens-spicy-salad-full.jpg

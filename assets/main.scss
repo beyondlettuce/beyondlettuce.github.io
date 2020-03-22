@@ -2080,6 +2080,16 @@ input, select, textarea {
 				color: #67c69b;
 			}
 
+/* Cart */
+
+	#cart {
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+		padding: 3em 0;
+		border-top: 3em solid #fff;
+	}
+
 /* Features */
 
 	#features {
