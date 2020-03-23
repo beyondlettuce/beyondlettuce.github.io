@@ -2080,20 +2080,20 @@ input, select, textarea {
 				color: #67c69b;
 			}
 
-/* Cart */
+/* Product Listing */
 
-	#cart {
+	#product-listing {
 		position: relative;
 		overflow: hidden;
 		text-align: center;
 		padding: 3em 0;
 		border-top: 3em solid #fff;
 	}
-		#cart .product .description {
+		#product-listing .product .description {
 			margin: 1em;
 		}
 
-		#cart .product .price {
+		#product-listing .product .price {
 			margin: .5em 1em;
 			font-weight: bold;
 		}
