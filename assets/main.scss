@@ -2099,6 +2099,19 @@ input, select, textarea {
 		top: 1em;
 	}
 
+	#cart-widget button.snipcart-checkout {
+		padding: .75em 1em;
+	}
+
+	#cart-widget .icon {
+		height: 24px;
+		margin-bottom: -4px;
+	}
+
+	#cart-widget .snipcart-items-count {
+		font-size: 16px;
+	}
+
 	#product-listing {
 		position: relative;
 		overflow: hidden;
