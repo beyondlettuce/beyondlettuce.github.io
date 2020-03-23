@@ -152,12 +152,12 @@ input, select, textarea {
 		}
 
 		a:hover {
-			color: #67c69b;
+			color: #14880b;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
 			a:hover strong {
-				color: #67c69b;
+				color: #14880b;
 			}
 
 	strong, b {
@@ -1772,7 +1772,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #67c69b;
+		background: #14880b;
 		color: #fff;
 		cursor: pointer;
 		text-transform: uppercase;
@@ -1804,7 +1804,7 @@ input, select, textarea {
 		#page-wrapper input[type="reset"]:hover,
 		#page-wrapper button:hover,
 		.button:hover {
-			background: #77d6ab;
+			background: #58c053;
 		}
 
 		#page-wrapper input[type="button"]:active,
@@ -1812,7 +1812,7 @@ input, select, textarea {
 		#page-wrapper input[type="reset"]:active,
 		#page-wrapper button:active,
 		.button:active {
-			background: #67c69b;
+			background: #14880b;
 		}
 
 		#page-wrapper input[type="button"].alt,
@@ -1918,18 +1918,24 @@ input, select, textarea {
 			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
 		}
 
+		#header .heading {
+			text-decoration: none;
+			border: none;
+		}
+
 		#header h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #67c69b;
+			color: #14880b;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: 3em;
 			letter-spacing: 13px;
+			background: transparent url(/images/logo-192x192.png) no-repeat center left;
+			background-size: contain;
+			display: inline-block;
+			padding: 0.5em 3em;
+			line-height: 1.5em;
 		}
-
-			#header h1 a {
-				border: 0;
-			}
 
 		#header p {
 			text-transform: uppercase;
@@ -2005,13 +2011,13 @@ input, select, textarea {
 
 			#nav > ul > li.active > a:before,
 			#nav > ul > li:hover > a:before {
-				background: #67c69b;
+				background: #14880b;
 				color: #fff;
 			}
 
 			#nav > ul > li.active > a > span,
 			#nav > ul > li:hover > a > span {
-				color: #67c69b;
+				color: #14880b;
 			}
 
 	.dropotron {
@@ -2078,7 +2084,7 @@ input, select, textarea {
 				-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-				color: #67c69b;
+				color: #14880b;
 			}
 
 /* Store Stuff */
@@ -2310,10 +2316,6 @@ input, select, textarea {
 
 			#header > .container {
 				padding: 6em 0 4em 0;
-			}
-
-			#header h1 {
-				font-size: 2.5em;
 			}
 
 		/* Nav */
@@ -2650,6 +2652,7 @@ input, select, textarea {
 				font-size: 2em;
 				letter-spacing: 8px;
 				line-height: 1.325em;
+				padding: 0 3em;
 			}
 
 			#header p {
