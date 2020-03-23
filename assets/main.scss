@@ -2080,7 +2080,13 @@ input, select, textarea {
 				color: #67c69b;
 			}
 
-/* Product Listing */
+/* Store Stuff */
+
+	#cart-widget {
+		position: fixed;
+		right: 1em;
+		top: 1em;
+	}
 
 	#product-listing {
 		position: relative;
