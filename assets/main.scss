@@ -1489,7 +1489,7 @@ input, select, textarea {
 		-ms-transition: opacity 0.25s ease-in-out;
 		transition: opacity 0.25s ease-in-out;
 		display: inline-block;
-		border: solid 6px #ebebeb !important;
+		border: solid 6px #ebebeb;
 	}
 
 		.image:hover {
@@ -1657,7 +1657,7 @@ input, select, textarea {
 
 /* Form */
 
-	form label {
+	#page-wrapper form label {
 		font-weight: 600;
 		text-transform: uppercase;
 		color: #888;
@@ -1665,11 +1665,11 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 	}
 
-	form input[type="text"],
-	form input[type="email"],
-	form input[type="password"],
-	form select,
-	form textarea {
+	#page-wrapper form input[type="text"],
+	#page-wrapper form input[type="email"],
+	#page-wrapper form input[type="password"],
+	#page-wrapper form select,
+	#page-wrapper form textarea {
 		-moz-transition: background-color 0.25s ease-in-out;
 		-webkit-transition: background-color 0.25s ease-in-out;
 		-ms-transition: background-color 0.25s ease-in-out;
@@ -1685,15 +1685,15 @@ input, select, textarea {
 		padding: 0.75em 1em 0.75em 1em;
 	}
 
-		form input[type="text"]:focus,
-		form input[type="email"]:focus,
-		form input[type="password"]:focus,
-		form select:focus,
-		form textarea:focus {
+		#page-wrapper form input[type="text"]:focus,
+		#page-wrapper form input[type="email"]:focus,
+		#page-wrapper form input[type="password"]:focus,
+		#page-wrapper form select:focus,
+		#page-wrapper form textarea:focus {
 			background: #f0f0f0;
 		}
 
-	form textarea {
+	#page-wrapper form textarea {
 		min-height: 11em;
 	}
 
@@ -1760,10 +1760,10 @@ input, select, textarea {
 
 /* Button */
 
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
-	button,
+	#page-wrapper input[type="button"],
+	#page-wrapper input[type="submit"],
+	#page-wrapper input[type="reset"],
+	#page-wrapper button,
 	.button {
 		-moz-transition: all 0.25s ease-in-out;
 		-webkit-transition: all 0.25s ease-in-out;
@@ -1773,7 +1773,8 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		background: #67c69b;
-		color: #fff !important;
+		color: #fff;
+		cursor: pointer;
 		text-transform: uppercase;
 		border-radius: 4px;
 		border: 0;
@@ -1787,10 +1788,10 @@ input, select, textarea {
 		padding: 0.85em 2.75em 0.85em 2.75em;
 	}
 
-		input[type="button"].icon:before,
-		input[type="submit"].icon:before,
-		input[type="reset"].icon:before,
-		button.icon:before,
+		#page-wrapper input[type="button"].icon:before,
+		#page-wrapper input[type="submit"].icon:before,
+		#page-wrapper input[type="reset"].icon:before,
+		#page-wrapper button.icon:before,
 		.button.icon:before {
 			position: relative;
 			padding-right: 0.75em;
@@ -1798,42 +1799,42 @@ input, select, textarea {
 			top: 0.05em;
 		}
 
-		input[type="button"]:hover,
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		button:hover,
+		#page-wrapper input[type="button"]:hover,
+		#page-wrapper input[type="submit"]:hover,
+		#page-wrapper input[type="reset"]:hover,
+		#page-wrapper button:hover,
 		.button:hover {
 			background: #77d6ab;
 		}
 
-		input[type="button"]:active,
-		input[type="submit"]:active,
-		input[type="reset"]:active,
-		button:active,
+		#page-wrapper input[type="button"]:active,
+		#page-wrapper input[type="submit"]:active,
+		#page-wrapper input[type="reset"]:active,
+		#page-wrapper button:active,
 		.button:active {
 			background: #67c69b;
 		}
 
-		input[type="button"].alt,
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		button.alt,
+		#page-wrapper input[type="button"].alt,
+		#page-wrapper input[type="submit"].alt,
+		#page-wrapper input[type="reset"].alt,
+		#page-wrapper button.alt,
 		.button.alt {
 			background: #878787;
 		}
 
-			input[type="button"].alt:hover,
-			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			button.alt:hover,
+			#page-wrapper input[type="button"].alt:hover,
+			#page-wrapper input[type="submit"].alt:hover,
+			#page-wrapper input[type="reset"].alt:hover,
+			#page-wrapper button.alt:hover,
 			.button.alt:hover {
 				background: #979797;
 			}
 
-			input[type="button"].alt:active,
-			input[type="submit"].alt:active,
-			input[type="reset"].alt:active,
-			button.alt:active,
+			#page-wrapper input[type="button"].alt:active,
+			#page-wrapper input[type="submit"].alt:active,
+			#page-wrapper input[type="reset"].alt:active,
+			#page-wrapper button.alt:active,
 			.button.alt:active {
 				background: #878787;
 			}
@@ -2081,6 +2082,10 @@ input, select, textarea {
 			}
 
 /* Store Stuff */
+
+	.snipcart {
+		background: #fff;
+	}
 
 	#cart-widget {
 		position: fixed;
@@ -2607,10 +2612,10 @@ input, select, textarea {
 
 		/* Button */
 
-			input[type="button"],
-			input[type="submit"],
-			input[type="reset"],
-			button,
+			#page-wrapper input[type="button"],
+			#page-wrapper input[type="submit"],
+			#page-wrapper input[type="reset"],
+			#page-wrapper button,
 			.button {
 				letter-spacing: 2px;
 				display: block;
