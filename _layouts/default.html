@@ -30,8 +30,15 @@
 
 		</div>
 
-    <div id="snipcart" data-api-key="NDEzY2M4NzYtY2VmZi00YTBlLThhN2QtN2E5ZGYwMWRmMjQyNjM3MjA0MjQyNzk2ODIxNzI4" hidden></div>
-    <script src="https://cdn.snipcart.com/themes/v3.0.10/default/snipcart.js"></script>
+    {% if jekyll.environment == "production" %}
+      <!-- production -->
+      <div id="snipcart" data-api-key="NGQ1NDRlNGUtNTUxNS00NzcyLTg1MTMtZmEzMDViMjAzZDQ0NjM3MjA0MjQyNzk2ODIxNzI4" hidden></div>
+      <script src="https://cdn.snipcart.com/themes/v3.0.10/default/snipcart.js"></script>
+    {% elsif jekyll.environment == "development" %}
+      <!-- development -->
+      <div id="snipcart" data-api-key="NDEzY2M4NzYtY2VmZi00YTBlLThhN2QtN2E5ZGYwMWRmMjQyNjM3MjA0MjQyNzk2ODIxNzI4" hidden></div>
+      <script src="https://cdn.snipcart.com/themes/v3.0.10/default/snipcart.js"></script>
+    {% endif %}
 
 	</body>
 
