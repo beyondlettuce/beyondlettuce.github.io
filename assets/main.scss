@@ -2112,12 +2112,16 @@ input, select, textarea {
 		font-size: 16px;
 	}
 
+	#product-header {
+		background: #fff;
+		padding: 3em 2em 1em 2em;
+	}
+
 	#product-listing {
 		position: relative;
 		overflow: hidden;
 		text-align: center;
 		padding: 3em 0;
-		border-top: 3em solid #fff;
 	}
 		#product-listing .product .description {
 			margin: 1em;
