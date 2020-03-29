@@ -4,6 +4,8 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
 
+$gold-color: #d4af37;
+
 /*
 	Strongly Typed by Pixelarity
 	pixelarity.com | hello@pixelarity.com
@@ -1914,8 +1916,8 @@ input, select, textarea {
 
 		#header > .container {
 			padding: 6em 0 4em 0;
-			border-bottom: solid 2px #e5e5e5;
-			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
+			border-bottom: solid 1px $gold-color;
+			box-shadow: inset 0px -9px 0px 0px #fff, inset 0px -10px 0px 0px $gold-color;
 		}
 
 		#header .heading {
@@ -2137,7 +2139,7 @@ input, select, textarea {
 			width: 100%;
 			min-width: 275px;
 			padding: 1em 0 7em 0;
-			border: 1px solid #d4af37;
+			border: 1px solid $gold-color;
 			margin: 1em;
 		}
 		#product-listing .product-content {
