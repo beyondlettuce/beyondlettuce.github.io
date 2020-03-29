@@ -3,23 +3,27 @@
     <div class="row aln-center">
     {% for product in site.data.microgreens %}
       <div class="product col-4 col-6-medium col-12-small">
-        <h3>{{ product.name }}</h3>
-        <div class="image">
-          <img src="{{ product.image }}" alt="{{ product.name }}" />
+        <div class="product-content">
+          <h3>{{ product.name }}</h3>
+          <div class="image">
+            <img src="{{ product.image }}" alt="{{ product.name }}" />
+          </div>
+          <div class="description">
+            {{ product.description }}
+          </div>
         </div>
-        <div class="description">
-          {{ product.description }}
+        <div class="cta">
+          <button class="snipcart-add-item"
+            data-item-id="{{ product.id }}"
+            data-item-name="{{ product.name }}"
+            data-item-price="{{ product.price }}"
+            data-item-url="/products/{{ product.id }}"
+            data-item-description="{{ product.description }}"
+            data-item-image="{{ product.image }}">
+            Add to cart
+          </button>
+          <div class="price">${{ product.price }}</div>
         </div>
-        <button class="snipcart-add-item"
-          data-item-id="{{ product.id }}"
-          data-item-name="{{ product.name }}"
-          data-item-price="{{ product.price }}"
-          data-item-url="/products/{{ product.id }}"
-          data-item-description="{{ product.description }}"
-          data-item-image="{{ product.image }}">
-          Add to cart
-        </button>
-        <div class="price">${{ product.price }}</div>
       </div>
     {% endfor %}
     </div>

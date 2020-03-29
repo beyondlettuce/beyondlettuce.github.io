@@ -2123,6 +2123,37 @@ input, select, textarea {
 		text-align: center;
 		padding: 3em 0;
 	}
+		#product-listing > .container {
+			display: flex;
+			justify-content: center;
+		}
+		#product-listing > .container > .row {
+
+			margin: 0 auto;
+		}
+		#product-listing .product {
+			position: relative;
+			flex: 1;
+			width: 100%;
+			min-width: 275px;
+			padding: 1em 0 7em 0;
+			border: 1px solid #d4af37;
+			margin: 1em;
+		}
+		#product-listing .product-content {
+			margin: 0 1em;
+		}
+		#product-listing .product .cta {
+			position: absolute;
+			bottom: 1em;
+			width: 100%;
+			padding: 0 2em;
+		}
+		#product-listing .product .cta .snipcart-add-item {
+			display: inline-block;
+			width: auto;
+			padding: 1em 1.5em;
+		}
 		#product-listing .product .description {
 			margin: 1em;
 		}
