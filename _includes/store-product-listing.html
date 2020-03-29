@@ -13,15 +13,23 @@
           </div>
         </div>
         <div class="cta">
-          <button class="snipcart-add-item"
-            data-item-id="{{ product.id }}"
-            data-item-name="{{ product.name }}"
-            data-item-price="{{ product.price }}"
-            data-item-url="/products/{{ product.id }}"
-            data-item-description="{{ product.description }}"
-            data-item-image="{{ product.image }}">
-            Add to cart
-          </button>
+          {% if site.data.snipcartenabled == "true" %}
+            <button class="snipcart-add-item"
+              data-item-id="{{ product.id }}"
+              data-item-name="{{ product.name }}"
+              data-item-price="{{ product.price }}"
+              data-item-url="/products/{{ product.id }}"
+              data-item-description="{{ product.description }}"
+              data-item-image="{{ product.image }}">
+              Add to cart
+            </button>
+          {% else %}
+            <a href="mailto:inquiries@beyondlettuce.com">
+              <button class="button">
+                Email to Order
+              </button>
+            </a>
+          {% endif %}
           <div class="price">${{ product.price }}</div>
         </div>
       </div>
