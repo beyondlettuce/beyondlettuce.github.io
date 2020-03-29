@@ -1,17 +1,17 @@
 - id: live-microgreens-radish-full
   name: Radish Microgreens
   price: 45
-  description: A full tray of live radish microgreens.
+  description: Radish microgreens provide a lovely touch of pink, a bit of a bite and a crunchy texture. We like to add them along with spring onions on our dishes, but are also an amazing addition to potato soup.
   image: /images/products/live-microgreens-radish-full.jpg
 
 - id: live-microgreens-broccoli-full
   name: broccoli Microgreens
   price: 45
-  description: A full tray of live broccoli microgreens.
+  description: Broccoli microgreens are a constant favorite, they are highly nutrient-dense, subtle in flavor and are easily added to sauces, blended drinks, and any salad. Our home rarely has a meal without a bit of broccoli greens.
   image: /images/products/live-microgreens-broccoli-full.jpg
 
 - id: live-microgreens-spicy-salad-full
   name: Spicy Salad Microgreens
   price: 45
-  description: A full tray of live spicy salad microgreens.
+  description: This is a favorite on sandwiches and pizza. This mix includes broccoli, kale, purple vienna kohlrabi, arugula, red acre cabbage, snowball cauliflower, southern giant mustard.
   image: /images/products/live-microgreens-spicy-salad-full.jpg
